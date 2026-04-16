@@ -34,7 +34,7 @@ let add = {
     job: prompt("What is your job?")
 
 }
-if(add.age < 18 && add.job === "programmer" && add.place === "uzbekistan"){
+if(add.age < 18 && add.job === "programmer" && add.place === "uzbekistan"   ){
     console.log("Sorry " + add.name + " qabul qlinmadiz")
 }
 
